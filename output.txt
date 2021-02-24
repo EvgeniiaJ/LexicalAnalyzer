@@ -1,0 +1,138 @@
++   : Add
+1   : Int
+@ : Lexical Error, invalid token
+? : Lexical Error, invalid token
+# : Lexical Error, invalid token
+$ : Lexical Error, invalid token
+(   : LParen
+)   : RParen
+8   : Int
+_ : Lexical Error, invalid token
+% : Lexical Error, invalid token
+8565   : Int
+34   : Int
+7.14114   : Float
+.8264   : Float
+0.389   : Float
+8565E : Lexical Error, invalid token
+34e : Lexical Error, invalid token
+7.14114E+10   : FloatE
+.8264e-222   : FloatE
+0.389E= : Lexical Error, invalid token
++8565   : Int
+-34.e : Lexical Error, invalid token
++7.14114F   : FloatF
+-.8264f   : FloatF
++0.389F   : FloatF
+.' : Lexical Error, invalid token
+' : Lexical Error, invalid token
+: : Lexical Error, invalid token
+/   : Div
+4   : Int
+/   : Div
+^ : Lexical Error, invalid token
+then   : Keyword_then
+elsen   : Id
+while   : Id
+whiel   : Id
+a   : Id
+nd   : Id
+nand   : Id
+hte   : Id
+sond   : Id
+firstsecond   : Id
+repair   : Id
+nill   : Id
+il   : Id
+the3n   : Id
+ror   : Id
+nor   : Id
+8   : Int
+lse   : Id
+iff   : Id
+delse   : Id
+for   : Id
+(   : LParen
+int   : Id
+i   : Id
+=   : Eq
+0   : Int
+; : Lexical Error, invalid token
+i   : Id
+<   : Lt
+12   : Int
+; : Lexical Error, invalid token
+i   : Id
++   : Add
++   : Add
+)   : RParen
+{   : LBrace
+for   : Id
+(   : LParen
+int   : Id
+j   : Id
+=   : Eq
+0   : Int
+; : Lexical Error, invalid token
+j   : Id
+<   : Lt
+12   : Int
+; : Lexical Error, invalid token
+j   : Id
++   : Add
++   : Add
+)   : RParen
+{   : LBrace
+if   : Keyword_if
+(   : LParen
+array   : Id
+[ : Lexical Error, invalid token
+i   : Id
+] : Lexical Error, invalid token
+[ : Lexical Error, invalid token
+j   : Id
+] : Lexical Error, invalid token
+! : Lexical Error, invalid token
+=   : Eq
+913   : Int
+)   : RParen
+{   : LBrace
+x   : Id
+/   : Div
+=   : Eq
+(   : LParen
+34   : Int
+*   : Mul
+(   : LParen
+y   : Id
++   : Add
+(   : LParen
+z   : Id
+% : Lexical Error, invalid token
+3   : Int
+)   : RParen
+)   : RParen
+)   : RParen
+; : Lexical Error, invalid token
+term   : Id
+(   : LParen
+)   : RParen
+; : Lexical Error, invalid token
+}   : RBrace
+else   : Keyword_else
+{   : LBrace
+System   : Id
+.o : Lexical Error, invalid token
+ut   : Id
+.p : Lexical Error, invalid token
+rintln   : Id
+(   : LParen
+" : Lexical Error, invalid token
+Invalid   : Id
+Value   : Id
+" : Lexical Error, invalid token
+)   : RParen
+; : Lexical Error, invalid token
+}   : RBrace
+}   : RBrace
+}   : RBrace
